@@ -1,2 +1,2 @@
-# statistics-engineers
-Simple course landing page for digital products, compatible with Paddle domain verification.
+# Statistics for Engineers
+A landing page for selling a digital course using Paddle integration.
