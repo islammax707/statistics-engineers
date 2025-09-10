@@ -1,35 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Statistics for Engineers</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #111;
+      color: #eee;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1581092919530-872bfa196a3a') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .feature-box {
+      background-color: #1e1e1e;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .price {
+      font-size: 2rem;
+      color: #ffca28;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid #444;
+      margin-top: 4rem;
+    }
+
+    footer a {
+      color: #90caf9;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
-  <header class="hero">
-    <div class="hero-overlay">
-      <h1>Statistics for Engineers</h1>
-      <p>Master the fundamentals of engineering statistics in this practical course.</p>
-      <a href="#" class="cta-button">Buy Now</a>
-    </div>
+  <header>
+    <h1>Statistics for Engineers</h1>
   </header>
 
-  <section class="features">
-    <h2>What you'll learn</h2>
-    <ul>
-      <li>✔ Descriptive & Inferential Statistics</li>
-      <li>✔ Probability & Distributions</li>
-      <li>✔ Hypothesis Testing & Confidence Intervals</li>
-      <li>✔ Real-world engineering applications</li>
-    </ul>
+  <section>
+    <h2>About the Course</h2>
+    <p>This course is designed for engineering students and professionals seeking a practical approach to statistics. Learn from real-world engineering examples and apply concepts directly to your field.</p>
+    <div class="price">Course Price: $49</div>
+  </section>
+
+  <section>
+    <h2>What You'll Get</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Hands-On Projects</h3>
+        <p>Practice with real data and engineering cases.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Instant Access</h3>
+        <p>Start learning immediately after purchase.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Downloadable Resources</h3>
+        <p>Get slides, datasets, and cheat sheets.</p>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <a href="terms.html">Terms</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="refund.html">Refund</a>
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="refund.html">Refund Policy</a>
   </footer>
 </body>
+
 </html>
